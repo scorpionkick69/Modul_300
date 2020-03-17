@@ -1,7 +1,7 @@
 ## Webserver
 ``` 
 +-------------------------------+      
-! VM1: Ubuntu            	      ! 
+! VM1: Ubuntu                   ! 
 + Port: Gast:80 Host:8080       +       
 ! Arbeitsspeicher: 1024 MB      !	    
 +-------------------------------+       
