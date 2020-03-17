@@ -3,7 +3,7 @@
 +-------------------------------+       +-------------------------------+
 ! VM1: Load Balancer            !	      ! VM2: Webserver                !
 + Privates Netz: 192.168.5.10   +       + Privates Netz: 192.168.5.11   +
-! Arbeitsspeicher: 1024 MB      !	      ! Arbeitsspeiche: 1024 MB       !
+! Arbeitsspeicher: 1024 MB      !       ! Arbeitsspeiche: 1024 MB       !
 + Provision: provision-lb.sh    +       + Provision: provision-web.sh   !
 +-------------------------------+       +-------------------------------+
 +-------------------------------+  
