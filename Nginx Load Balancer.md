@@ -1,16 +1,16 @@
 ## Nginx Load Balancer
 ``` 
 +-------------------------------+       +-------------------------------+
-! VM1: Load Balancer            !	    ! VM2: Webserver                !
+! VM1: Load Balancer            !	      ! VM2: Webserver                !
 + Privates Netz: 192.168.5.10   +       + Privates Netz: 192.168.5.11   +
-! Arbeitsspeicher: 1024 MB      !	    ! Arbeitsspeiche: 1024 MB       !
+! Arbeitsspeicher: 1024 MB      !	      ! Arbeitsspeiche: 1024 MB       !
 + Provision: provision-lb.sh    +       + Provision: provision-web.sh   !
 +-------------------------------+       +-------------------------------+
 +-------------------------------+  
 ! VM3: Webserver                !
 + Privates Netz: 192.168.5.12   +
 ! Arbeitsspeicher: 1024 MB      !
-+ Provision: provision-web.sh  + 
++ Provision: provision-web.sh   + 
 +-------------------------------+
 ```
 1.) Vagrantfile lokal speichern
